@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pranita Potghan | Hacker Engineer</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0a0a0a;
+    font-family: 'Share Tech Mono', monospace;
+    color: #ff1a1a;
+    overflow-x: hidden;
+}
+
+/* Matrix Background Effect */
+body::before {
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+        0deg,
+        rgba(255, 0, 0, 0.05),
+        rgba(255, 0, 0, 0.05) 1px,
+        transparent 1px,
+        transparent 2px
+    );
+    animation: scan 4s linear infinite;
+    z-index: -1;
+}
+@keyframes scan {
+    0% { background-position: 0 0; }
+nav {
+    justify-content: space-between;
+    border-bottom: 1px solid #ff1a1a;
+
+nav h1 {
+    font-size: 22px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: white;
+    text-shadow: 0 0 10px #ff0000;
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero h2 {
+    font-size: 55px;
+
+.hero span {
+    color: white;
+    text-shadow: 0 0 15px #ff0000;
+}
+
+.typing {
+    font-size: 22px;
+    margin-top: 20px;
+    border-right: 2px solid #ff1a1a;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(30, end), blink 0.7s infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink {
+    50% { border-color: transparent }
+}
+
+/* Section Styling */
+section {
+    padding: 100px 80px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    border-left: 4px solid #ff1a1a;
+    padding-left: 15px;
+}
+
+/* About */
+.about p {
+    max-width: 600px;
+    line-height: 1.8;
+    color: #ff6666;
+}
+
+/* Skills */
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.skill {
+    padding: 15px;
+    border: 1px solid #ff1a1a;
+    width: fit-content;
+}
+
+    padding-left: 80px;
+}
+    text-align: center;
+    transition: 0.3s;
+    color: #ff1a1a;
+}
+
+    gap: 30px;
+
+    letter-spacing: 2px;
+}
+.skill:hover {
+    background-color: #ff1a1a;
+    color: black;
+    padding: 20px 50px;
+    display: flex;
+    cursor: pointer;
+/* Navbar */
+
+}
+}
+    100% { background-position: 0 100%; }
+
+
+/* Footer */
+
+footer {
+
+    text-align: center;
+    padding: 30px;
+
+    border-top: 1px solid #ff1a1a;
+
+    color: #ff4444;
+
+}
+</style>
+</head>
+
+
+<body>
+
+<nav>
+    <h1>PRANITA.exe</h1>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+</nav>
+
+<div class="hero">
+
+    <h2>Hello, I'm <span>Pranita Potghan</span></h2>
+    <div class="typing">
+        Hacker | Engineer | Programmer | Coder
+    </div>
+</div>
+
+
+<section id="about" class="about">
+    <h3>> About_Me</h3>
+    <p>
+        Passionate hacker-minded engineer who loves breaking problems,
+        building powerful systems, and writing clean, efficient code.
+        I thrive in logic, security, algorithms, and modern technologies.
+        Always learning. Always building. Always evolving.
+    </p>
+</section>
+
+<section id="skills">
+    <h3>> Skills_Set</h3>
+    <div class="skills-list">
+        <div class="skill">Python</div>
+        <div class="skill">C++</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Cybersecurity</div>
+
+        <div class="skill">Linux</div>
+
+        <div class="skill">Ethical Hacking</div>
+
+        <div class="skill">Web Development</div>
+
+        <div class="skill">Data Structures</div>
+    </div>
+
+</section>
+
+
+<section id="contact">
+    <h3>> Contact</h3>
+    <p style="color:#ff6666;">Initialize connection: pranita@email.com</p>
+</section>
+
+
+<footer>
+    © 2026 Pranita Potghan | Access Granted
+
+</footer>
+
+
+</body>
+</html>
